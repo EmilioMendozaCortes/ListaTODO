@@ -1,0 +1,7 @@
+{
+    "name" : "Aplicación Web Lista ToDo",
+    "short_name": "ToDo App",
+    "description": "Aplicación Web para crear una lista de tareas por hacer",
+    "start_url": "index.html",
+    "theme_color": "#317EFB"
+}
