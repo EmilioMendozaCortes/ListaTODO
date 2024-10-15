@@ -3,5 +3,45 @@
     "short_name": "ToDo App",
     "description": "Aplicación Web para crear una lista de tareas por hacer",
     "start_url": "index.html",
-    "theme_color": "#317EFB"
+    "theme_color": "#317EFB",
+    "background color":"#317EFB",
+    "display" : "minimal-ui",
+    "form_factor" : "wide",
+    "icons": [
+        {
+            "src": "icons/32x32.png",
+            "sizes" : "32x32",
+            "type" : "image/png"
+        },
+        {
+            "src": "icons/64x64.png",
+            "sizes" : "64x64",
+            "type" : "image/png"
+        },
+        {
+            "src": "icons/128x128.png",
+            "sizes" : "128x128",
+            "type" : "image/png"
+        },
+        {
+            "src": "icons/192x192.png",
+            "sizes" : "192x192",
+            "type" : "image/png"
+        },
+        {
+            "src": "icons/256x256.png",
+            "sizes" : "256x256",
+            "type" : "image/png"
+        },
+        {
+            "src": "icons/512x512.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        },
+        {
+            "src": "icons/icon_maskable_1024x1024.png",
+            "sizes" : "1024x1024",
+            "type" : "image/png"
+        }
+    ]
 }
