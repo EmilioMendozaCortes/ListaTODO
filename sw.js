@@ -15,3 +15,10 @@ self.addEventListener('install', e=> {
         caches.open(cacheName).then(cache => cache.addAll(preCache))
     );
 });
+
+// Asegura que cuando se recupere la conexión se actualice
+self.addEventListener('fetch', e => {
+    e.respondWith(
+        caches.match(e.request).then(res => res || fetch(e.request))
+    );
+});
